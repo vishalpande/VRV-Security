@@ -1,0 +1,58 @@
+/* Reset styles and full-page centering */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  box-sizing: border-box;
+}
+
+/* Main container for the app content */
+.container {
+  width: -webkit-fill-available; /* Occupies 90% of screen width */
+  max-width: 800px; /* Limit width on larger screens */
+  padding: 20px;
+  background-color: #000000; /* White background for better contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center-align content */
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%; /* Full width */
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #855b5b; /* White text for the navbar */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+/* Welcome text styling */
+h2 {
+  color: #343a40; /* Dark gray for headings */
+  margin: 20px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Increase width for smaller screens */
+    padding: 15px;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px; /* Reduce font size on smaller devices */
+  }
+}
