@@ -1,0 +1,35 @@
+/* AppNavbar.css */
+.app-navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    border-radius: 8px; /* Rounded corners for a modern look */
+  }
+  
+  .brand-text {
+    font-size: 1.8rem; /* Larger text for the brand */
+    font-weight: bold; /* Make brand text bold */
+    color: #ff7f50; /* Coral color for the brand */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .brand-text:hover {
+    color: #ff6347; /* Change to tomato color when hovered */
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color */
+    font-size: 1.1rem; /* Slightly larger text */
+    padding: 10px 15px; /* Extra padding for better click area */
+    text-transform: uppercase; /* Uppercase for a cleaner look */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    color: #ff7f50; /* Coral color when hovered */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background when hovered */
+    border-radius: 4px; /* Rounded corners on hover */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ff7f50; /* Change the toggler icon color */
+  }
+  
